@@ -75,7 +75,7 @@ const Layout = () => {
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>{ui?.title}</h1>
+                            <h1 className={styles.headerTitle}>MovieAss</h1>
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }} className={styles.shareButtonContainer}>
